@@ -35,6 +35,7 @@ public class BaseTest {
         driver.get("http://localhost:9999");
     }
 
+
     @AfterEach
     public void afterEach() {
         driver.quit();
